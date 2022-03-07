@@ -1,0 +1,94 @@
+.parentContainer{
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    position: fixed;
+}
+h2{
+    margin-top: 4%;
+}
+.drinksContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+.Cards:hover{
+    cursor: pointer;
+}
+.drinksContainer>div{
+    width: 25%;
+    min-width: 25%;
+    border-radius: 2%;
+}
+h5{
+    cursor: text;
+}
+img{
+    height: 40%;
+    width: 100%;
+    min-height: 40%;
+    border-radius: 2%;
+}
+.Cards{
+   background-color: teal;
+   margin-bottom: 1.5%;
+}
+.innerCards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1%;
+}
+.innerCards>div{
+    width: 40%;
+}
+button{
+    margin-top: 14%;
+}
+.subContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+@media (min-width: 360px) and (max-width: 525px) {
+    img {
+        height: 100%;
+        width: 100%;
+    }
+    .innerCards>div{
+        width: 100%;
+    }
+    .drinksContainer>div{
+    width: 40%;
+    }
+    button{
+        margin-top: 18%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 359px) {
+    img {
+        height: 100%;
+        width: 100%;
+    }
+    .innerCards>div{
+        width: 100%;
+    }
+    .drinksContainer>div{
+    width: 40%;
+    }
+    button{
+        margin-top: 18%;
+    }
+    h5{
+        font-size: 0.7em;
+    }
+}
+
+
+  
